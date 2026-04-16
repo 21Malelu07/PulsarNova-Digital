@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Redirecting...</title>
+</head>
+<body>
+
+<script>
+  // Get stored form data
+  const data = JSON.parse(localStorage.getItem("formData"));
+
+  if (data) {
+    const text = `Hello PulsarNova Digital,%0A
+Name: ${data.name}%0A
+Email: ${data.email}%0A
+Service: ${data.service}%0A
+Message: ${data.message}`;
+
+    // WhatsApp number
+    const phone = "26663169903";
+
+    // Redirect to WhatsApp
+    window.location.href = `https://wa.me/${phone}?text=${text}`;
+  }
+</script>
+
+<p>Redirecting you to WhatsApp...</p>
+
+</body>
+</html>
