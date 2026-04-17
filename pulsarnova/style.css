@@ -347,4 +347,9 @@
   overflow: hidden;
 
   }
+  .hero-blob { position: absolute; background: var(--purple); opacity: 0.9; border-radius: 50%; }
+  .hero-blob.tl { width: 120px; height: 80px; top: 55px; left: -80px; }
+  .hero-blob.bl { width: 120px; height: 80px; bottom: 30px; left: -70px; }
+  .hero-blob.tr { width: 120px; height: 80px; top: 50px; right: -75px; }
+  .hero-blob.br { width: 120px; height: 80px; bottom: 40px; right: -80px; }
 }
