@@ -1,0 +1,10 @@
+# PulsarNova Digital — robots.txt
+# https://pulsarnovadigital.netlify.app
+
+User-agent: *
+Allow: /
+
+Disallow: /assets/private/
+Disallow: /*.json$
+
+Sitemap: https://pulsarnovadigital.netlify.app/sitemap.xml
